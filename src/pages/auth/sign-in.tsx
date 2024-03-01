@@ -1,9 +1,10 @@
-import { Button } from '@/components/ui/button'
+import { Helmet } from 'react-helmet-async'
 
 export function SignIn() {
   return (
     <div className="flex h-screen items-center justify-center">
-      <Button>Sign In</Button>
+      <Helmet title="Sign In" />
+      <h1>Sign In</h1>
     </div>
   )
 }
