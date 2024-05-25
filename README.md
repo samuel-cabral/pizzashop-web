@@ -1,61 +1,62 @@
-# Pizzeria Dashboard
+# Dashboard para Restaurantes de Delivery
 
-## Introduction
+Este projeto é um dashboard desenvolvido com React, destinado a lojistas que possuem restaurantes em aplicativos de delivery, como iFood. O dashboard permite acompanhar métricas do restaurante, gerenciar pedidos e visualizar dados detalhados de vendas.
 
-The Pizzeria Dashboard is a comprehensive React application built with Vite, designed to provide pizzeria owners with a powerful tool for managing their business. This dashboard facilitates easy management of menu items, orders, and customer feedback, all through a user-friendly interface. Built with React and Vite for fast development cycles and optimized performance, this dashboard integrates modern front-end technologies to ensure a seamless experience for pizzeria owners.
+## Funcionalidades
 
-## Features (all still in development)
+- **Acompanhamento de Métricas**: Exibe gráficos de pedidos mensais e diários.
+- **Gerenciamento de Pedidos**: Permite visualizar detalhes dos pedidos, alterar status, cancelar pedidos, etc.
+- **Integração com API**: Utiliza React Query para gerenciar cache e requisições HTTP.
+- **Autenticação**: Implementa login sem senha utilizando Magic Link.
+- **Atualização de Perfil**: Permite atualizar informações do perfil da loja.
+- **Filtros e Paginação**: Filtros por estado do pedido, nome do cliente e ID do cliente, além de paginação com skeleton screens.
+- **Temas**: Suporte a temas claro e escuro.
 
-- **Menu Management:** Easily add, edit, or remove menu items, including descriptions, prices, and images.
-- **Order Tracking:** View and manage incoming orders in real-time, with options to mark orders as completed or canceled.
-- **Feedback System:** Collect and review customer feedback to improve service quality.
-- **Analytics:** Access business insights with analytics on sales, customer preferences, and more.
-- **Responsive Design:** A mobile-friendly interface ensures access from any device, anywhere.
+## Tecnologias Utilizadas
 
-## Technology Stack
+- **React**: Biblioteca principal para construção da interface.
+- **TailwindCSS**: Utilizado para estilização.
+- **React Query**: Gerenciamento de estado e cache de requisições HTTP.
+- **Jest e React Testing Library**: Ferramentas para testes unitários.
+- **API**: Backend pronto desenvolvido com BAN (disponível na trilha de JavaScript no backend).
 
-- **Frontend:** React (with Vite)
-- **State Management:** Zustand
-- **Styling:** Tailwind CSS for responsive design and shadcn/ui components
-- **Testing:** Jest and React Testing Library for unit and integration tests
-- **API Requests:** Axios and for handling API requests
-- **Form Handling:** React Hook Form with Zod for validation
+## Estrutura do Projeto
 
-## Getting Started
+- **Login e Autenticação**: Implementa login através de Magic Link, sem necessidade de senha.
+- **Dashboard Principal**: Exibe gráficos e métricas de pedidos.
+- **Gestão de Pedidos**: Visualização, aprovação, cancelamento e filtragem de pedidos.
+- **Atualização de Perfil**: Permite alterar informações da loja com atualização de cache em tempo real.
 
-### Prerequisites
+## Instalação e Execução
 
-- Node.js (LTS version)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/samuel-cabral/pizzashop-web.git
-   cd pizzashop-web
+   git clone https://github.com/seu-usuario/dashboard-restaurante.git
    ```
 
-2. Install the dependencies:
+2. Instale as dependências:
+   ```bash
+   cd dashboard-restaurante
+   npm install
+   ```
 
-  ```bash
-  npm install
-  
-  # or
-  
-  yarn install
-  ```
+3. Inicie o projeto:
+   ```bash
+   npm start
+   ```
 
-3. Start the server
+## Uso
 
-```bash
-npm run dev
+Após iniciar o projeto, você poderá acessar o dashboard no seu navegador. Utilize um usuário já cadastrado ou cadastre-se para fazer login através do Magic Link enviado por e-mail. Navegue pelo dashboard para visualizar e gerenciar os pedidos do restaurante.
 
-# or 
+## Contribuição
 
-yarn dev
-````
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias e correções.
 
-The application will be available at [http://localhost:5173/sign-in](http://localhost:5173/sign-in) to see the sign-in page layout.
+## Licença
 
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Participe desse desafio e vamos codar juntos! 🚀
