@@ -38,7 +38,7 @@ export function Pagination({
           </Button>
           <Button variant="outline" className="h-8 w-8 p-0">
             <ChevronLeft className="h-4 w-4" />
-            <span className="sr-only">Página anterior</span>
+            <span className="sr-only">Página passado</span>
           </Button>
           <Button variant="outline" className="h-8 w-8 p-0">
             <ChevronRight className="h-4 w-4" />
