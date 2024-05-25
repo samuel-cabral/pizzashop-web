@@ -1,4 +1,4 @@
-# Dashboard para Restaurantes de Delivery
+# PizzaShop Web
 
 Este projeto é um dashboard desenvolvido com React, destinado a lojistas que possuem restaurantes em aplicativos de delivery, como iFood. O dashboard permite acompanhar métricas do restaurante, gerenciar pedidos e visualizar dados detalhados de vendas.
 
@@ -31,12 +31,12 @@ Este projeto é um dashboard desenvolvido com React, destinado a lojistas que po
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/dashboard-restaurante.git
+   git clone git@github.com:samuel-cabral/pizzashop-web.git
    ```
 
 2. Instale as dependências:
    ```bash
-   cd dashboard-restaurante
+   cd pizzashop-web
    npm install
    ```
 
